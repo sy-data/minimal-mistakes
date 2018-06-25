@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Steven J"
-  avatar           : "https://avatars3.githubusercontent.com/u/40491001?s=60&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars3.githubusercontent.com/u/40491001?s=120&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "HI, I am a Data Engineer"
   location         : "seoul, south Korea"
   email            :
