@@ -5,7 +5,7 @@ title: "About"
 excerpt: "data Engineer"
 author_profile: true
 layouts_gallery:
-  - url: "https://avatars3.githubusercontent.com/u/40491001?s=460&v=4"
+  - url: "/assets/images/das.jpg
     alt: "me"
  # - url: /assets/images/mm-layout-single-meta.png
  #   image_path: /assets/images/mm-layout-single-meta.png
@@ -22,7 +22,7 @@ toc: true
 그리고 취미에 대한 이야기를 쓰게될 것 같아요.
 :smile:.
 
-# {% include gallery id="layouts_gallery" caption="맥과 윈도우즈를 동시에 쓰는것은..." %}
+ {% include gallery id="layouts_gallery" caption="맥과 윈도우즈를 동시에 쓰는것은..." %}
 
 
 > 맥과 윈도우즈를 동시에 사용하는 것은 매우 어려운일이야.
