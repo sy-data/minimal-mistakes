@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "S.Y. Blog"
 title_separator          : "-"
-name                     : "Steven J."
+name                     : "Steven J"
 description              : "Wildcat with pianist and twins"
-url                      : "https://sy-data.github.id" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://sy-data.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : sy-data/sy-data.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -100,7 +100,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Steven J."
+  name             : "Steven J"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "HI, I am a Data Engineer"
   location         : "seoul, south Korea"
@@ -266,6 +266,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true # true
+      comments: true
       share: true
       related: true
