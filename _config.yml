@@ -92,16 +92,16 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-121359926-1
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Steven J"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars3.githubusercontent.com/u/40491001?s=60&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "HI, I am a Data Engineer"
   location         : "seoul, south Korea"
   email            :
