@@ -2,6 +2,7 @@
 permalink: /about/
 title: "About"
 excerpt: "data Engineer"
+author_profile: true
 layouts_gallery:
   - url: "https://avatars3.githubusercontent.com/u/40491001?s=460&v=4"
     alt: "me"
@@ -17,7 +18,7 @@ toc: true
 
 이 블로그는 몇가지 일에 대해서 기록 하려고 해요. 
 아직 정해지진 않았지만 아마도 개발과 관련된 이야기, 생활과 관련된 이야기 
-그리고 취미헤 대한 이야기를 쓰게될 것 같아요.
+그리고 취미에 대한 이야기를 쓰게될 것 같아요.
 :smile:.
 
 {% include gallery id="layouts_gallery" caption="맥과 윈도우즈를 동시에 쓰는것은..." %}
