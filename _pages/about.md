@@ -1,39 +1,28 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: "data Engineer"
 layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
-    alt: "archive layout example"
-last_modified_at: 2018-06-04T12:04:24-04:00
+  - url: https://avatars3.githubusercontent.com/u/40491001?s=460&v=4
+    alt: "me"
+ # - url: /assets/images/mm-layout-single-meta.png
+ #   image_path: /assets/images/mm-layout-single-meta.png
+ #   alt: "single layout with comments and related posts"
+
+last_modified_at: 2018-06-25 T12:04:24-09:00
 toc: true
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+## 안녕하세요?
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
+이 블로그는 몇가지 일에 대해서 기록 하려고 해요. 아직 정해지진 않았지만 아마도 개발과 관련된 이야기, 생활과 관련된 이야기 그리고 취미헤 대한 이야기를 쓰게될 것 같아요.
+이 블로그를 찾아온 당신에게... :smile:.
 
-[Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
+{% include gallery id="layouts_gallery" caption="맥과 윈도우즈를 동시에 쓰는것은..." %}
 
-## Notable Features
 
-- Bundled as a "theme gem" for easier install/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman v1 and v2](https://staticman.net/), and custom).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Chinese, Danish, Dutch, French (Français), German (Deutsch), Greek, Hungarian, Indonesian, Italian (Italiano), Japanese, Korean, Nepali (Nepalese), Polish, Russian, Slovak, Spanish (Español), Swedish, Turkish (Türkçe), and Vietnamese.
+> 맥과 윈도우즈를 동시에 사용하는 것은 매우 어려운일이야.
+> 그래서 다음 기회에는 리눅스를 사용 해볼 생각.
 
 ## Demo Pages
 
