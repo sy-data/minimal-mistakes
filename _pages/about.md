@@ -5,7 +5,8 @@ title: "About"
 excerpt: "data Engineer"
 author_profile: true
 layouts_gallery:
-  - url: "/assets/images/das.jpg"
+  - url: /assets/images/das.jpg
+    image_path: /assets/images/das.jpg
     alt: "me"
  # - url: /assets/images/mm-layout-single-meta.png
  #   image_path: /assets/images/mm-layout-single-meta.png
