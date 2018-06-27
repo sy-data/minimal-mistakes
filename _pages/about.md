@@ -23,7 +23,7 @@ toc: true
 그리고 취미에 대한 이야기를 쓰게될 것 같아요.
 :smile:.
 
- {% include gallery id="layouts_gallery" caption="맥과 윈도우즈를 동시에 쓰는것은..." %}
+ {% include gallery id="layouts_gallery" caption="사진은 아무런 관련이 없어요... 난 스타워즈 팬도 아니야." %}
 
 
 > 맥과 윈도우즈를 동시에 사용하는 것은 매우 어려운일이야.
