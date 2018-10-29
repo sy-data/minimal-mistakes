@@ -476,10 +476,11 @@ function setComboValue2(obj, val) {
 	}
 }
 
-var x = this.gCognosViewer.getOldParameters();
-alert(x.p_1.m_parmValueItems[0].m_useValue);
+
 
 function getcombos(){
+	var x = this.gCognosViewer.getOldParameters();
+	alert(x.p_1.m_parmValueItems[0].m_useValue);
 	var fw = (typeof getFormWarpRequest == "function" ? getFormWarpRequest() : document.forms["formWarpRequest"]);
 	/*
 	let flag = false;
