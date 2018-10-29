@@ -497,9 +497,8 @@ function getcombos(){
 			params = params + "&objValue=" + fw._oLstChoicesdept1.options[fw._oLstChoicesdept1.selectedIndex].value;
 			sendValueRequest(params, fw._oLstChoicesdept2, "POST");
 		};
-		fw._oLstChoicesdept1.onload = function(){
-			if(x.p_1){setComboValue2(fw._oLstChoicesdept1,x.p_1.m_parmValueItems[0].m_useValue);}
-		};
+		if(x.p_1){setComboValue2(fw._oLstChoicesdept1,x.p_1.m_parmValueItems[0].m_useValue);}
+	}
 	}
 	if (fw._oLstChoicesdept2) {
 		fw._oLstChoicesdept2.onchange = function(){
@@ -521,10 +520,10 @@ function getcombos(){
 			sendValueRequest(params, fw._oLstChoicesdept1, "POST");
 			
 	}
-	
+/*	
 	if(x.p_1){
 		alert(x.p_1.m_parmValueItems[0].m_useValue);
 		setComboValue2(fw._oLstChoicesdept1,x.p_1.m_parmValueItems[0].m_useValue);
 	}
-	
+*/	
 }
