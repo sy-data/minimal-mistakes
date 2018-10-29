@@ -467,6 +467,7 @@ function setCascade5Init (index1, index2, index3, index4, index5, type1, type2, 
 }
 
 function setComboValue2(obj, val) {
+	console.log(obj.outerHTML,val);
 	var combo = obj;
 	for(var i=0;i<combo.options.length;i++) {
 		if(combo.options[i].value == val) {
