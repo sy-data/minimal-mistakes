@@ -519,7 +519,7 @@ function getcombos(){
 	}
 	
 	if(x.p_1){
-		setComboValue(fw._oLstChoicesdept1,x.p_1.m_parmValueItems[0].m_useValue);
+		setComboValue2(fw._oLstChoicesdept1,x.p_1.m_parmValueItems[0].m_useValue);
 	}
 	
 }
