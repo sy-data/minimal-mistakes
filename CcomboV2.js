@@ -480,7 +480,7 @@ function setComboValue2(obj, val) {
 
 function getcombos(){
 	var x = this.gCognosViewer.getOldParameters();
-	alert(x.p_1.m_parmValueItems[0].m_useValue);
+	
 	var fw = (typeof getFormWarpRequest == "function" ? getFormWarpRequest() : document.forms["formWarpRequest"]);
 	/*
 	let flag = false;
@@ -520,6 +520,7 @@ function getcombos(){
 	}
 	
 	if(x.p_1){
+		alert(x.p_1.m_parmValueItems[0].m_useValue);
 		setComboValue2(fw._oLstChoicesdept1,x.p_1.m_parmValueItems[0].m_useValue);
 	}
 	
