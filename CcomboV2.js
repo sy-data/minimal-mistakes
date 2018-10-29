@@ -467,9 +467,9 @@ function setCascade5Init (index1, index2, index3, index4, index5, type1, type2, 
 }
 
 
-(function (){
+(function getcombos(){
 	var fw = (typeof getFormWarpRequest == "function" ? getFormWarpRequest() : document.forms["formWarpRequest"]);
-	
+	/*
 	let flag = false;
 	if(!fw._oLstChoicesdept1) flag=true;
 	if(!fw._oLstChoicesdept2) flag=true;
@@ -477,6 +477,7 @@ function setCascade5Init (index1, index2, index3, index4, index5, type1, type2, 
 	if(!fw._oLstChoicesdept4) flag=true;
 	
 	if(flag) { alert("!"); return; }
+	*/
 	if (fw._oLstChoicesdept1) {
 		fw._oLstChoicesdept1.onchange = function(){
 			params = "sqlType=Lv3";
@@ -499,10 +500,10 @@ function setCascade5Init (index1, index2, index3, index4, index5, type1, type2, 
 		};
 	}
 	if (fw._oLstChoicesdept1) {
-			fw._oLstChoicesdept1.onload = function(){params = "sqlType=Lv2";
+			params = "sqlType=Lv2";
 			params = params + "&objValue=" + fw._oLstChoicesdept1.options[fw._oLstChoicesdept1.selectedIndex].value;
 			sendValueRequest(params, fw._oLstChoicesdept1, "POST");
-			};
+			
 	}
 	
 })();
