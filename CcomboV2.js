@@ -467,7 +467,7 @@ function setCascade5Init (index1, index2, index3, index4, index5, type1, type2, 
 }
 
 
-//(function (){
+(function (){
 	var fw = (typeof getFormWarpRequest == "function" ? getFormWarpRequest() : document.forms["formWarpRequest"]);
 	
 	let flag = false;
@@ -505,4 +505,4 @@ function setCascade5Init (index1, index2, index3, index4, index5, type1, type2, 
 			};
 	}
 	
-//})();
+})();
