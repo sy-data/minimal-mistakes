@@ -465,7 +465,8 @@ function setCascade5Init (index1, index2, index3, index4, index5, type1, type2, 
 		}
 	}
 }
-
+var x = this.gCognosViewer.getOldParameters();
+alert(x.p_1.m_parmValueItems[0].m_useValue);
 
 function getcombos(){
 	var fw = (typeof getFormWarpRequest == "function" ? getFormWarpRequest() : document.forms["formWarpRequest"]);
@@ -504,6 +505,10 @@ function getcombos(){
 			params = params + "&objValue=" + fw._oLstChoicesdept1.options[fw._oLstChoicesdept1.selectedIndex].value;
 			sendValueRequest(params, fw._oLstChoicesdept1, "POST");
 			
+	}
+	
+	if(x.p_1){
+		setComboValue(fw._oLstChoicesdept1,x.p_1.m_parmValueItems[0].m_useValue);
 	}
 	
 }
