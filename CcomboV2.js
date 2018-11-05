@@ -19,7 +19,7 @@
 
 
 // Statuc Variables Area
-var URL = "http://olap.tmoncorp.com/cascade/db2.jsp";
+var vURL = "http://olap.tmoncorp.com/cascade/db2.jsp";
 
 //------------
 function getXMLHttpRequest() {
@@ -50,7 +50,7 @@ function sendValueRequest(params, obj, method) {
 		httpMethod = 'GET';
 	}
 	httpParams = (params == null || params == '') ? null : params;
-	httpUrl = URL;
+	httpUrl = vURL;
 	
 	if (httpMethod == 'GET' && httpParams != null) {
 		httpUrl = httpUrl + "?" + httpParams;
@@ -115,7 +115,7 @@ function setSelectObj(selObj,res) {
     }
 //console.log("opt set");
 //console.log(selObj.innerHTML);
-selObj.onchange();
+try{selObj.onchange();} catch(e){};
 }
 
 
