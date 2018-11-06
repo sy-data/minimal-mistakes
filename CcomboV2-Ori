@@ -96,7 +96,7 @@ function ccv2setSelectObj(_o,_r) {
 	var __o = null;
 
 	var _v = _o._fM.c?_o._fM.c[0].c[0]["@useValue"]:'' ;
-	
+	if(!_r){return;}
 	for(var i=0;i<_r.getElementsByTagName("cd").length;i++) {
 
 		var cd = _r.getElementsByTagName("cd")[i].firstChild.nodeValue;
