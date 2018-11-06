@@ -21,9 +21,9 @@
 // Statuc Variables Area
 var vorigin = location.origin;
 var sdir = "cascade";
-var starget = "db2.jsp";
+var starget = "400.jsp";
 var sURL = vorigin + "/" + sdir + "/" + starget;
-var vURL = sURL; //"http://olap.tmoncorp.com/cascade/db2.jsp";
+var vURL = sURL; 
 
 //------------
 function ccv2getXMLHttpRequest() {
