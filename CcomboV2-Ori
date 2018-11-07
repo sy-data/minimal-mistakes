@@ -21,7 +21,7 @@
 // Statuc Variables Area
 var vorigin = location.origin;
 var sdir = "disp";
-var starget = "200.jsp";
+var starget = "commons-core-api.jsp";
 var sURL = vorigin + "/" + sdir + "/" + starget;
 var vURL = sURL; 
 
