@@ -1,6 +1,6 @@
 var vorigin = location.origin;
 var sdir = "cascade";
-var starget = "400.jsp";
+var starget = "200.jsp";
 var sURL = vorigin + "/" + sdir + "/" + starget;
 var vURL = sURL;
 
