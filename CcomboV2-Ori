@@ -20,7 +20,7 @@
 
 // Statuc Variables Area
 var vorigin = location.origin;
-var sdir = "cascade";
+var sdir = "disp";
 var starget = "200.jsp";
 var sURL = vorigin + "/" + sdir + "/" + starget;
 var vURL = sURL; 
