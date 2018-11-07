@@ -127,26 +127,26 @@ function getcombos(){
 	
 	
 	
-	try{ _dt4 = fw._oLstChoicesdept4;} catch(e){ console.log(e); return;}
+	try{ _dt4 = fw._oLstChoicesdept4;} catch(e){ console.log(e); }
 	try{ 
 	_dt3 = fw._oLstChoicesdept3;
 	_dt3.onchange = function(){
 			ccv2sendValueRequest("sqlType=Lv5" + "&objValue=" + this.options[this.selectedIndex].value, _dt4, "POST");
 		};
-		} catch(e){ console.log(e); return;}
+		} catch(e){ console.log(e); }
 	try{ 
 	_dt2 = fw._oLstChoicesdept2;
 	_dt2.onchange = function(){
 			ccv2sendValueRequest("sqlType=Lv4" + "&objValue=" + this.options[this.selectedIndex].value, _dt3, "POST");
 		};
-		} catch(e){ console.log(e); return;}
+		} catch(e){ console.log(e); }
 	try{ 
 	_dt1 = fw._oLstChoicesdept1;
 	_dt1.onchange = function(){
 			ccv2sendValueRequest("sqlType=Lv3" + "&objValue=" + this.options[this.selectedIndex].value, _dt2, "POST");
 		};
 		ccv2sendValueRequest("sqlType=Lv2" + "&objValue=", _dt1, "POST");
-		} catch(e){ console.log(e); return;}
+		} catch(e){ console.log(e); }
 		
 	
 	try{ _dc4 = fw._oLstChoicescat4;} catch(e){ console.log(e); }
