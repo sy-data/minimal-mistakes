@@ -94,8 +94,8 @@ function ccv2clearSelectObj(_o) {
 function ccv2setSelectObj(_o,_r) {
 	ccv2clearSelectObj(_o);
 	var __o = null;
-
-	var _v = _o._fM.c?_o._fM.c[0].c[0]["@useValue"]:'' ;
+	var ___o = _o._fM.c?_o._fM:_o._fL;
+	var _v = ___o.c?___o.c[0].c[0]["@useValue"]:'' ;
 	if(!_r){return;}
 	for(var i=0;i<_r.getElementsByTagName("cd").length;i++) {
 
